@@ -3,9 +3,9 @@
 Devise.setup do |config|
   config.secret_key = CDO.dashboard_devise_secret
 
-  unless Rails.env.production?
+  ##unless Rails.env.production?
     config.secret_key ||= "not a secure secret key!"
-  end
+  ##end
 
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
@@ -99,9 +99,9 @@ Devise.setup do |config|
 
   # Setup a pepper to generate the encrypted password.
   config.pepper = CDO.dashboard_devise_pepper
-  unless Rails.env.production?
+  ##unless Rails.env.production?
     config.pepper ||= "not a pepper!"
-  end
+  ##end
 
   # ==> Configuration for :invitable
   # The period the generated invitation token is valid, after

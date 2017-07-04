@@ -5,9 +5,9 @@
         course1:
           title: "コース1"
           description: "コース 1 は、初心者でも作れるようにデザインされています。他の人とのコラボレーションを行う、問題解決スキルを育てる、難しいタスクをやり続ける、といったことを学びます。このコースを終えると、子供達は、個性にあふれたゲームやストーリーを作り、シェアできるようになるでしょう。小学
-            1 年生 (5-7歳) におすすめのコースです。"
+            1 年生 (5-7才) におすすめのコースです。"
           description_short: "コース１は初心者向けです。"
-          description_audience: 4-6 歳対象
+          description_audience: 4-6 才
           stages:
             'Artist: Loops':
               name: "アーティスト：ループ"
@@ -49,7 +49,7 @@
           title: "コース2"
           description: "コース2は、読み書きができてプログラミング経験のない生徒のためのコースです。このコースでは、問題を解くプログラムやインタラクティブなゲームや物語を作ってシェアします。2年生〜5年生向け。"
           description_short: "コース2は読み書きができる生徒のためのコースです。"
-          description_audience: 6さい いじょう(よむことができること)
+          description_audience: 6才以上(読み書きができる)
           stages:
             'Artist: Debugging':
               name: "アーティスト：デバッグ"
@@ -482,8 +482,8 @@
             Studio:
               name: Studio
         flappy:
-          title: Flappy Code
-          description: 10分以内で自分だけのゲームを作ってみませんか？Flappy Codeを試す
+          title: フラッピー コード
+          description: 10分以内で自分だけのゲームを作ってみませんか？フラッピー コードを やってみよう！
           description_short: Write your own Flappy game!
           description_audience: ''
           stages:
